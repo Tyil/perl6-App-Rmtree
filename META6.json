@@ -1,7 +1,7 @@
 {
   "authors": "Patrick Spek <p.spek@tyil.work>",
   "depends": [
-    
+    "File::Temp"
   ],
   "description": "Utility to clean up entire trees of files",
   "license": "GPL-3.0",
@@ -9,7 +9,8 @@
   "name": "App::Rmtree",
   "perl": "6.c",
   "provides": {
-    
+    "App::Rmtree": "lib/App/Rmtree.pm6",
+    "rmtree": "bin/rmtree"
   },
   "resources": [
     
