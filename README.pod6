@@ -1,0 +1,26 @@
+=head1 rmtree(1)
+=head2 NAME
+rmtree - Utility to remove entire trees
+
+=head2 DESCRIPTION
+The rmtree application allows for easy deletion of entire trees, much like C<rm
+-rf> would. However, rmtree allows for optional "sacred extensions". If these
+are set, and a directory contains a file with one of these extensions, it will
+not be deleted.
+
+=head2 SYNOPSIS
+    rmtree [paths]
+
+=head2 EXAMPLES
+    rmtree /tmp/directory
+
+=head2 BUGS
+Bugs can be reported at the Github issue tracker, at
+L<https://github.com/Tyil/perl6-App-Rmtree/issues>.
+
+=head2 AUTHOR
+This application is written by Patrick Spek <p.spek@tyil.work>.
+
+=head2 COPYRIGHT
+This application is distributed under the terms of the GPLv3, or any later
+version if available.
